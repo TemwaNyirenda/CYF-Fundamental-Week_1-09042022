@@ -1,0 +1,353 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#one, #two, #three{
+  background-color: #d6502b;
+  color: #d6502b;
+  height: 50px;
+  font-size: 30px;
+  font-family:"Architects Daughter";
+}
+
+#buttons{
+  /* background-color: #000000; */
+  position: relative;
+  height: 100px;
+  top: -175px;
+  left: 550px;
+
+}
+
+#h1-top{
+  position: relative;
+  right: 100px;
+  font-size: 30px;
+}
+
+#h1-bottom{
+  position: relative;
+  top: 60px;
+  left: 100px;
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  margin-left:15px;
+  margin-right:15px;
+  position: relative;
+  top: -60px;
+}
+
+li {
+  float: left;
+  width:25%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family:"Architects Daughter";
+  font-weight: bold;
+  font-size:20px;
+}
+
+li a:hover {
+  background-color: #d6502b;
+}
+
+body {
+  height: 1600px;
+  border: 50px dotted #d6502b;
+/* code for background image: start*/
+  background: #efe7d2;
+  background-image: url("https://i.pinimg.com/originals/d8/49/6f/d8496f61918cb48f9ebfd0659609c91e.jpg"); 
+  background-position: 750px 300px;
+  background-repeat: no-repeat;
+  background-size: 1000px;
+/* code for background image: end*/
+  
+}
+
+.c-site-header{
+  display: flex;
+  border: 15px double #000000;
+  padding-bottom: 10px;
+  background: #d6502b;
+  font-family: Pacifico;
+  color: #FFFFFF;
+  font-size: 60px;
+  text-shadow: -5px 5px 10px #000, -1px -1px 0px #000;
+  justify-content: center;
+  position: relative;
+  top: -20px;
+  margin-left:15px;
+  margin-right:15px;
+  height: 200px;
+
+}
+
+
+main{
+  position: relative;
+  top: 0px;
+  margin: 30px
+}
+
+.container {
+  display: grid;
+  width: 990px;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 10px;
+}
+
+.h2-left{
+  display: flex;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background: #d6502b;
+  font-family: Pacifico;
+  color: #FFFFFF;
+  font-size: 30px;
+  text-shadow: -5px 5px 10px #000, -1px -1px 0px #000;
+  justify-content: ;
+  position: relative;
+  top: ;
+  margin-left:;
+  margin-right:;
+  /* width: 660px; */
+}
+
+.h2-right{
+  display: flex;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  background: #d6502b;
+  font-family: Pacifico;
+  color: #FFFFFF;
+  font-size: 30px;
+  text-shadow: -5px 5px 10px #000, -1px -1px 0px #000;
+  justify-content: right;
+  position: relative;
+  top: ;
+  margin-left:;
+  margin-right:;
+  /* width: 660px; */
+}
+
+.h2-center{
+  display: flex;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  background: #d6502b;
+  font-family: Pacifico;
+  color: #FFFFFF;
+  font-size: 30px;
+  text-shadow: -5px 5px 10px #000, -1px -1px 0px #000;
+  justify-content: center;
+  position: relative;
+  top: ;
+  margin-left:;
+  margin-right:;
+  /* width: 660px; */
+}
+
+p{
+  /* display: flex; */
+  background: #967a72;
+  padding: 10px;
+  color: ;
+  font-family:"Architects Daughter";
+  font-size:20px;
+  /* justify-content: center; */
+  position: relative;
+  top: -29px;
+  /* margin-left:; */
+  /* margin-right:; */
+  /* width: 650px; */
+}
+
+#comment_list{
+  background: #967a72;
+  padding: 10px;
+  font-family:"Architects Daughter";
+  font-size:14px;
+  position: relative;
+  top: -29px;
+}
+
+.comments{
+  max-width: 330px;
+  background-color: #FFFFFF;
+  border: 2.5px solid #d6502b;
+  border-radius: 20px;
+  padding: 5px;
+  overflow-wrap: break-word;
+
+}
+
+input{
+  border: 2.5px solid #d6502b;
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 5px;
+}
+
+
+#comment{
+  border: 2.5px solid #d6502b;
+  border-radius: 25px;
+  color: #d6502b;
+  font-size: 16px;
+  font-family:"Architects Daughter";
+}
+
+/* #second-paragraph{
+  background: #967a72;
+  padding: 10px;
+  color: ;
+  font-family:"Architects Daughter";
+  font-size:20px;
+  justify-content: center;
+  position: relative;
+  top: -29px;
+  margin-left:;
+  margin-right:;
+}
+
+.second-paragraph{
+  background: ;
+  height:280px;
+  width: 1000px;
+  display: grid;
+  grid-template-columns: 700px 310px;
+} */
+
+/* .video{
+  position: relative;
+  top: -29px;
+  border: 10px solid #967a72; 
+  background: #967a72;
+}
+
+#video{
+  width: 280px;
+  height: 250px;
+  border: 10px solid #967a72; 
+} */
+
+a {
+  color: #d6502b;
+}
+
+/* .fourth-paragraph{
+  background: ;
+  height:x280px;
+  width: 1000px;
+  display: grid;
+  grid-template-columns: 265px 745px;
+} */
+
+/* #fourth-paragraph{
+  background: #967a72;
+  padding: 10px;
+  color: ;
+  font-family:"Architects Daughter";
+  font-size:20px;
+  justify-content: center;
+  position: relative;
+  top: -29px;
+  margin-left:;
+  margin-right:;
+} */
+
+/* .CYF-logo{
+  width: 280px;
+  height: 170px;
+  overflow: hidden;
+  position: relative;
+  top: -29px;
+  border: 10px solid #967a72; 
+  background: #967a72;
+} */
+
+/* #CYF-logo{
+  width: 90%;
+  height: auto;
+  margin: -40px 0px 0px 0px;
+} */
+
+#page{
+  float: center;
+  text-align: center;
+  justify-content: center;
+  color: #FFFFFf;
+  font-weight: bold;
+  background: #967a72;
+  padding: 10px;
+  font-family:"Architects Daughter";
+  font-size:16px;
+  /* width: 650px; */
+  line-height: 20px;
+}
+
+#previous_page, #next_page{
+  width: 49%;
+  border: 2.5px solid #d6502b;
+  color: #d6502b;
+  font-size: 16px;
+  font-family:"Architects Daughter";
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#go_to_page{
+  font-size: 16px;
+}
+
+#go{
+  border: 2.5px solid #d6502b;
+  border-radius: 50%;
+  color: #d6502b;
+  font-size: 16px;
+  font-family:"Architects Daughter";
+}
+
+footer{
+  text-align: center;
+  background: #000000;
+  color: #FFFFFF;
+  font-family:"Architects Daughter";
+  font-weight: bold;
+  font-size:28px;
+  justify-content: center;
+}
+
+aside{
+  position: relative;
+  top: 100px;  
+}
+
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }

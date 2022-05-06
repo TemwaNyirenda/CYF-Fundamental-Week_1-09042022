@@ -200,7 +200,8 @@ p{
   border-radius: 20px;
   padding: 5px;
   overflow-wrap: break-word;
-
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 input{
